@@ -2,6 +2,7 @@ version: '3'
 services:
   grpcox:
     build: .
+    image: qaware/grpcox:latest
     ports:
       - "6969:6969"
     volumes:
